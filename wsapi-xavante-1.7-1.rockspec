@@ -2,7 +2,7 @@
 
 package = "wsapi-xavante"
 
-version = "1.6.1-1"
+version = "1.7-1"
 
 description = {
   summary = "Lua Web Server API - Xavante Handler",
@@ -14,16 +14,17 @@ description = {
   homepage = "http://www.keplerproject.org/wsapi"
 }
 
-dependencies = { "wsapi >= 1.6.1", "rings >= 1.3.0", "coxpcall >= 1.14", "xavante >= 2.3.0" }
+dependencies = { "wsapi >= 1.6.1", "xavante >= 2.3.0" }
 
 -- LuaDist source
 source = {
-  tag = "1.6.1-1",
+  tag = "1.7-1",
   url = "git://github.com/LuaDist-testing/wsapi-xavante.git"
 }
 -- Original source
 -- source = {
---   url = "http://www.keplerproject.org/files/wsapi-1.6.1.tar.gz"
+--   url = "git://github.com/keplerproject/wsapi",
+--   tag = "v1.7",
 -- }
 
 build = {
