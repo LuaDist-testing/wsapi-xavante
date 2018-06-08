@@ -1,6 +1,8 @@
-package = "WSAPI-Xavante"
+-- This file was automatically generated for the LuaDist project.
 
-version = "cvs-1"
+package = "wsapi-xavante"
+
+version = "1.4-1"
 
 description = {
   summary = "Lua Web Server API - Xavante Handler",
@@ -12,11 +14,17 @@ description = {
   homepage = "http://www.keplerproject.org/wsapi"
 }
 
-dependencies = { "wsapi cvs", "rings >= 1.2.3", "coxpcall >= 1.13", "xavante >= 2.2.0" }
+dependencies = { "wsapi >= 1.4", "rings >= 1.2.3", "coxpcall >= 1.13", "xavante >= 2.2.0" }
 
+-- LuaDist source
 source = {
-  url = "git://github.com/keplerproject/wsapi.git"
+  tag = "1.4-1",
+  url = "git://github.com/LuaDist-testing/wsapi-xavante.git"
 }
+-- Original source
+-- source = {
+--   url = "http://cloud.github.com/downloads/keplerproject/wsapi/wsapi-1.4.tar.gz"
+-- }
 
 build = {
     type = "builtin",
